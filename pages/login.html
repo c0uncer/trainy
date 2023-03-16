@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9327d71920.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./login.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="header">
+            <nav>
+                <div class="logo"><a href="/"><img src="./images/logo.png" alt=""></a></div>
+    
+                <ul class="header-nav">
+                    <li class="nav-li"><a href="/">Homepage</a></li>
+                    <li class="nav-li"><a href="./programs">Our Programs</a></li>
+                    <li class="nav-li"><a href="./personalized-program">Personalized Program</a></li>
+                    <li class="nav-li"><a href="./login" id="login-out">Login</a></li>
+                    <li class="nav-li"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+
+    <section class="content">
+        <h1>Giriş Yap</h1>
+        <form action="" class="login-form">
+            <label for="email">Your Email</label>
+            <input type="email" name="email" id="email">
+            <label for="password">Your Password</label>
+            <input type="password" name="password" id="password">
+            <p>Don't have an account? <span id="register"><b><a href="./register">Register</a></b></span></p>
+            <button id="submit">Submit</button>
+        </form>
+    </section>
+    <div class="alertBox" role="alert">
+        <h1 id="alert-t"></h1>
+    </div>
+
+    <section class="footer">
+        <div class="social">
+            <h1>Bize Ulaşın!</h1>
+            <div class="social-icons">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js" defer></script>
+    <script src="header.js" defer></script>
+    <script src="footer.js" defer></script>
+    <script src="login.js" defer></script>
+</body>
+</html>

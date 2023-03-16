@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(225, 225, 225);">
+    <div>
+        <h1 style="margin: auto; font-size: 3rem;">Email Verified</h1>
+        <button id="redirectBtn">Back To Login Page</button>
+    </div>
+
+    <script>
+
+        const redirectBtn = document.getElementById('redirectBtn');
+
+        redirectBtn.addEventListener('click',async ()=>{
+            document.location.href = "http://localhost:5000/login"
+        })
+    </script>
+</body>
+</html>

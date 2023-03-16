@@ -1,0 +1,87 @@
+.content{
+    position: relative;
+    margin-top: 15vh;
+    height: 60vh;
+}
+.content h1{
+    transform: translateY(100%);
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+}
+form{
+    width: fit-content  ;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 25vh;
+    text-align: center;
+    height: 200px;
+    display: inline-block;
+}
+input{
+    margin-top: 1vh;
+    font-size: 1rem;
+    height: 2rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    display: block;
+}
+#register{
+    cursor: pointer;
+}
+#submit{
+    margin-top: 5%;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#submit:hover{
+    opacity: 0.5;
+}
+.alertBox{
+    transform: translateY(-2rem);
+    margin: auto;
+    position: relative;
+    height: fit-content;
+    width: 50%;
+    transition: 1s; 
+    border-radius: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+#alert-t{
+    border-radius: 5px;
+}
+.req{
+    display: inline ;
+    color: purple;
+    cursor: default;
+}
+.nameReq{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 0.8rem;
+    width: 65%;
+    height: fit-content;
+}
+.nameReq ul{
+    display: inline;
+}
+.nameReq ul li{
+    text-align: left;
+    list-style: none;
+}
+.req:hover + .nameReq{
+    display: inline-block;
+}
